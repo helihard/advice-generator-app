@@ -1,4 +1,39 @@
+:root {
+  --lightcyan: hsl(193, 38%, 86%);
+  --neongreen: hsl(150, 100%, 66%);
+  --grayishblue: hsl(217, 19%, 38%);
+  --darkgrayishblue: hsl(217, 19%, 24%);
+  --darkblue: hsl(218, 23%, 16%);
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  display: grid;
+  place-items: center;
+  min-height: 100vh;
+  background-color: var(--darkblue);
+  font-family: "Manrope", sans-serif;
+}
+
+#container {
+  background-color: var(--darkgrayishblue);
+  width: 340px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#quote-div {
+  color: var(--lightcyan);
+  text-align: center;
+  font-size: 24px;
+}
+
 .attribution {
+  color: lightgray;
   font-size: 11px;
   text-align: center;
 }
