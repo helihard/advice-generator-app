@@ -28,13 +28,13 @@ function MainContainer() {
       {advice && (
         <>
           <div id="advice-no-div">advice #{advice.slip.id}</div>
-          <div id="quote-div">&quot;{advice.slip.advice}&quot;</div>
+          <div id="quote-div">&#8220;{advice.slip.advice}&#8221;</div>
         </>
       )}
       <img src={PatternDividerMobile} id="pattern-divider-mobile" />
       <img src={PatternDividerDesktop} id="pattern-divider-desktop" />
       <button onClick={handleClick}>
-        <img src={IconDice} />
+        <img src={IconDice} alt="Get advice" />
       </button>
     </div>
   )
