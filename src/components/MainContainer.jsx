@@ -5,12 +5,12 @@ import IconDice from "../images/icon-dice.svg"
 function MainContainer() {
   return (
     <div id="container">
-      <div id="advice-no-div>">Advice #</div>
+      <div id="advice-no-div">advice #</div>
       <div id="quote-div">
         &quot;It is easy to sit up and take notice, what&apos;s difficult is
         getting up and taking action.&quot;
       </div>
-      <img src={PatternDividerMobile} />
+      <img src={PatternDividerMobile} id="pattern-divider-mobile" />
       <button>
         <img src={IconDice} />
       </button>

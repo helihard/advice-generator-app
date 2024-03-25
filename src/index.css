@@ -27,10 +27,24 @@ body {
   margin-bottom: 50px;
 }
 
+#advice-no-div {
+  color: var(--neongreen);
+  text-transform: uppercase;
+  letter-spacing: 3.2px;
+  font-size: 12px;
+  margin: 40px 0 25px;
+}
+
 #quote-div {
   color: var(--lightcyan);
   text-align: center;
-  font-size: 24px;
+  font-size: 23px;
+  line-height: 1.5;
+  padding: 0 20px 23px;
+}
+
+#pattern-divider-mobile {
+  margin-bottom: 5px;
 }
 
 button {
