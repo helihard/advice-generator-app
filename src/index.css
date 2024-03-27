@@ -66,6 +66,7 @@ button {
   position: relative;
   top: 27px;
   transition: 0.2s ease-in;
+  cursor: pointer;
 }
 
 button:hover {
