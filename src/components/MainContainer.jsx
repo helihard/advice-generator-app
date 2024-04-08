@@ -9,7 +9,7 @@ function MainContainer() {
 
   const fetchAdvice = async () => {
     try {
-      const response = await fetch("https://api.adviceslip.com/advice")
+      const response = await fetch("https://api.adviceslip.com/advice?" + Date.now())
       const result = await response.json()
       setAdvice(result)
     } catch (error) {
